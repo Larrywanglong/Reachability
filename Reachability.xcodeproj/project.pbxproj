@@ -16,6 +16,7 @@
 		FE386A831CA77C2C00FEAE54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE386A811CA77C2C00FEAE54 /* LaunchScreen.storyboard */; };
 		FE386A8E1CA77C2C00FEAE54 /* ReachabilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE386A8D1CA77C2C00FEAE54 /* ReachabilityTests.m */; };
 		FE386A991CA77C2C00FEAE54 /* ReachabilityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE386A981CA77C2C00FEAE54 /* ReachabilityUITests.m */; };
+		FE386AA81CA77C3E00FEAE54 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FE386AA71CA77C3E00FEAE54 /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		FE386A941CA77C2C00FEAE54 /* ReachabilityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReachabilityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE386A981CA77C2C00FEAE54 /* ReachabilityUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReachabilityUITests.m; sourceTree = "<group>"; };
 		FE386A9A1CA77C2C00FEAE54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE386AA61CA77C3E00FEAE54 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		FE386AA71CA77C3E00FEAE54 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				FE386A741CA77C2C00FEAE54 /* AppDelegate.m */,
 				FE386A761CA77C2C00FEAE54 /* ViewController.h */,
 				FE386A771CA77C2C00FEAE54 /* ViewController.m */,
+				FE386AA61CA77C3E00FEAE54 /* Reachability.h */,
+				FE386AA71CA77C3E00FEAE54 /* Reachability.m */,
 				FE386A791CA77C2C00FEAE54 /* Main.storyboard */,
 				FE386A7F1CA77C2C00FEAE54 /* Assets.xcassets */,
 				FE386A811CA77C2C00FEAE54 /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 				FE386A751CA77C2C00FEAE54 /* AppDelegate.m in Sources */,
 				FE386A7E1CA77C2C00FEAE54 /* Reachability.xcdatamodeld in Sources */,
 				FE386A721CA77C2C00FEAE54 /* main.m in Sources */,
+				FE386AA81CA77C3E00FEAE54 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
